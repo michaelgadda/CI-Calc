@@ -1,8 +1,13 @@
-#test for calc app
+""
+""
 import calculator
 
+
 class TestCAlculatorApp:
-	def test_add(self):
-		assert 5 == calculator.add(3,2)
-	def test_subtract(self):
-		assert 5 == calculator.subtract(10,5)
+    def test_add(self):
+    	assert 5 == calculator.add(3, 2)
+
+
+    def test_subtract(self):
+    	assert 5 == calculator.subtract(10, 5)
+    	
